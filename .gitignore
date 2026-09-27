@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.tar.gz
+*.part
+EmeraldGlassSnapshots/
+restore-backups/
+
