@@ -28,6 +28,17 @@ cd emerald-glass-snapshots
 python3 emerald_glass_snapshots.py
 ```
 
+To add **Emerald Glass Snapshots** to the application menu and create a
+clickable Desktop shortcut, run:
+
+```bash
+python3 install.py --desktop
+```
+
+The installer copies the app to `~/.local/bin/` and creates a launcher for your
+own account. If a Desktop shortcut with that name already exists, it leaves it
+untouched. Omit `--desktop` if you only want the application menu entry.
+
 Click **Save current state** to create a snapshot. To restore one, select it and
 click **Restore selected**. The confirmation dialog lets you choose whether to
 save your current settings as an additional snapshot first. You can also rename
